@@ -1,0 +1,19 @@
+body{
+    width: 1200px;
+}
+.titolo-grigio{
+    color: rgb(113, 126, 139);
+}
+#booleaner-azzurro{
+    color: rgb(16, 201, 214);
+}
+
+.evidenziato{
+    background-color:rgb(238, 238, 23)
+
+}
+
+.tabella{
+    table-layout: fixed;
+    width: 100%;    
+}
