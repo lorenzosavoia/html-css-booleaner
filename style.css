@@ -1,6 +1,15 @@
 body{
     width: 1200px;
 }
+header{
+    height: 150px;
+    background-color: rgb(74, 83, 207);
+    background-image: url(img/pattern.png);
+}
+.titolo-boolean{
+    width: 20%;
+    
+}
 .titolo-grigio{
     color: rgb(113, 126, 139);
 }
@@ -13,7 +22,37 @@ body{
 
 }
 
-.tabella{
-    table-layout: fixed;
-    width: 100%;    
+    table{ 
+        table-layout: fixed;
+        width: 100%;
+
+    }
+    thead{
+        text-align: left;
+        background-color: rgb(22, 116, 204);
+    }
+    .colonna-azzurra{
+        background-color: rgb(120, 204, 243);
+    }
+
+
+.pubblicità1{
+    display: block;
+    width: 312px;
+    height: 200px;
+    background-image: url(img/monitor.jpg);
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    
+}
+.pubblicità2{
+    display: block;
+    width: 312px;
+    height: 200px;
+    background-image: url(img/graph.jpg);
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    
 }
